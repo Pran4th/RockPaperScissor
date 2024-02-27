@@ -1,0 +1,52 @@
+*{
+    margin:0;
+    padding: 0;
+}
+header{
+    height:100px;
+    text-align: center;
+    background-color: blue;
+    color: aliceblue;
+    line-height: 40px;
+}
+.choices{
+     height:100px;
+     width:100px;
+     display: flex;
+     border-radius: 25%;
+     justify-content: center;
+     margin-left: 650px;
+     margin-top: 50px;
+
+
+}
+#space{
+    margin-left: 25px;
+    border-radius: 50%;
+}
+#Work{
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#main{
+    height: 50px;
+    width: 300px;
+    background-color: green;
+    border-radius: 15rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 550px;
+    font-size: 2rem;
+}
+#space:hover
+{
+    cursor: pointer;
+    border: 2rem;
+    border-color: black;
+    opacity: 0.5;
+}
